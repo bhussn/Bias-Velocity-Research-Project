@@ -1,14 +1,14 @@
 # Proof of Concept: Narrative Velocity in ICE-related Media Coverage
 
 ## Overview  
-This project demonstrates the concept of **narrative velocity** — how immigration-related narratives about ICE emerge and spread at different speeds across media outlets with varying ideological stances.
+This project demonstrates the concept of **narrative velocity**; how immigration-related narratives about ICE emerge and spread at different speeds across media outlets with varying ideological stances.
 
 ## Framework Workflow  
 The workflow consists of four main steps:  
 1. **Scrape Outlets:** Collect articles from diverse news outlets across ideological spectrums using RSS feeds and web scraping.  
 2. **Score Bias:** Apply AI-powered models to assign multidimensional bias scores to each article (ideological stance, factual grounding, framing choices, emotional tone, source transparency).  
 3. **Cluster Labels:** Group articles based on similarity in bias scores and narrative content to identify coherent narrative clusters.  
-4. **Cluster Narrative:** Analyze temporal patterns within clusters to map narrative velocity — who initiates, amplifies, or responds to narratives over time.
+4. **Cluster Narrative:** Analyze temporal patterns within clusters to map narrative velocity; who initiates, amplifies, or responds to narratives over time.
 
 ## Methodology  
 We collected 9 articles mentioning ICE from conservative, moderate, and liberal news outlets over a three-day period. Each article was labeled by outlet ideology and timestamped. We analyzed the volume and timing of publications across ideologies to understand narrative propagation.
