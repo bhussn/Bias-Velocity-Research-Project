@@ -1,0 +1,8 @@
+feedparser
+newspaper3k
+lxml[html_clean]
+requests
+transformers
+torch
+pandas
+beautifulsoup4
